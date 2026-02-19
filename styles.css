@@ -1,0 +1,166 @@
+body{
+    margin:0px;
+    padding:0px;
+    
+
+}
+#hero {
+  position: relative;
+}
+
+#hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.25);
+}
+
+#hero > * {
+  position: relative;
+}
+#hero{
+    background-image: url("images/sitamarhi.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 200px;  
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+    font-family: 'Cinzel', serif;
+    margin-bottom:0px;
+    min-height: 250px;
+    
+}
+main section {
+  margin-bottom: 30px;
+}
+.intro{
+    color: #35e5a1;
+    font-size: 30px;
+    text-shadow: 0 4px 12px rgba(0,0,0,0.55);
+    margin-top: 50px;
+    text-align: center;
+}
+
+.intro-details {
+    color: #ffffff;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.5);
+    background: linear-gradient(135deg, #dbb4a3, #fda085);
+    margin: 0px auto;
+}
+.side{
+    margin-top:0px;
+    background:white;
+    display:flex;
+    flex-direction: column;
+}
+.heading {
+    margin-top:2px;
+    color:rgb(5, 0, 0);
+    background: linear-gradient(to left, #437ede, #9bb8e8);
+    text-align: center;
+    margin-bottom: 2px;
+    text-shadow: 0 0px 4px rgba(6, 6, 6, 0.3);
+}
+.paragraph{
+    margin-top:0px;
+    color:rgb(11, 39, 150);
+    padding-bottom: 10px;
+    padding-top:5px;
+    text-align: center;
+    background: linear-gradient(135deg, #f7f6f4, #fda085);
+    margin-bottom: 2px;
+    border-radius: 5px;
+    border: 1px solid #311818;
+}
+.place_heading{
+    text-align: center;
+    color:rgb(6, 10, 24);
+    background: linear-gradient(90deg, #7a7aea, #684ad2);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-shadow: 0 0px 4px rgba(6, 6, 6, 0.3);
+}
+.card {
+    display:flex;
+    flex-direction: row;
+    margin:0px;
+    gap:3px
+}
+.image{
+    width:120px;
+    height:120px;
+    margin: 20px auto 0px auto;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.mandir {
+    display:flex;
+    flex-direction: column;
+    gap:0px;
+    background: linear-gradient(135deg, #8cafb6, #3f87c2);
+    margin: 2px 1px 2px 1px;
+    border: 1px solid #311818;
+    border-radius: 5px;
+    
+}
+.title{
+    margin:5px;
+}
+.detail{
+    margin-top: 0px;
+    padding: 0px 5px 20px 0px;
+    text-align: center;
+    color:rgb(241, 237, 244);
+    text-shadow: 0 0px 10px rgba(0, 0, 0, 1);
+    margin-bottom: 0px;
+    background: linear-gradient(135deg, #a04d98, #75a138);
+}
+.title {
+  background: rgb(109, 210, 235);
+  text-align: center;
+}
+.guide_img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.guide{
+    margin-top: 0px;
+    background-color:rgba(224, 215, 215, 0.661);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 2px solid #000000;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.guide_details{
+    color:black;
+    text-shadow: 0px 0px rgba(0, 0, 0, 1);
+    margin-bottom: 0px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.guide_info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.guide_title{
+    justify-content: space-around;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+.guide_know{
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
